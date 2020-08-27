@@ -11,7 +11,6 @@ PyQt5==5.15.0
 PyQt5-sip==12.8.0
 python-decouple==3.3
 pytz==2020.1
-pywinauto==0.6.8
 selenium==3.141.0
 six==1.15.0
 sqlparse==0.3.1
