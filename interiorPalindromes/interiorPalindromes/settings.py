@@ -25,7 +25,9 @@ SECRET_KEY = 'xx2wrd-06=s0_a%ho9lu1)4g7h9!io11_2yq(cuw2(_33vv+xu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'interior-palindromes.herokuapp.com'
+]
 
 
 # Application definition

@@ -1,0 +1,1 @@
+web: gunicorn interiorPalindromes.wsgi --log-file -
