@@ -19,4 +19,6 @@ def Comb(str, n):
             thisComb[str[i] + piece] = i
             if checkPalindrome(str[i] + piece): thisPal.add(str[i] + piece)
         return [{**comb, **thisComb}, (Comb(str,n-1)[1].union(thisPal))]
+
+
 print(Comb(str,len(str))[1] if len(Comb(str,len(str))[1]) > 0 else "No palindrome")
